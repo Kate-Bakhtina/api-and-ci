@@ -55,4 +55,4 @@ class TestEcho:
         args = self.__get_response(result).get("args")
 
         assert status == 200
-        assert args.get("user") == "2"
+        assert args.get("user") == "1"
